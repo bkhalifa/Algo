@@ -16,16 +16,13 @@ namespace TU
             //arrange
             var moqPrimeNumberService = new PrimeNumberService();
             int? number = 3;
-            var expectedResult = 3;
+            var expectedResult = new int[] { 3, 2 };
 
             //act
             var sut = moqPrimeNumberService.GetPrimeNumbers(3);
 
             //assert
-            foreach (var s in sut)
-            {
-                Assert.IsTrue(expectedResult == s);
-            }
+            Assert.AreEqual(expectedResult, sut);
         }
 
         [Test]

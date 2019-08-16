@@ -14,6 +14,10 @@ namespace Algo
 
         private static void Main(string[] args)
         {
+           
+
+            Console.WriteLine("*************************************************************");
+
             #region SubArrayWithGivenSum
 
             int[] array = new int[2] { 1, 4 };

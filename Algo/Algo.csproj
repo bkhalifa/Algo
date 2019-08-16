@@ -47,11 +47,13 @@
     <Compile Include="PrimeNumberService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RotateArray.cs" />
     <Compile Include="SubArrayWithGivenSum.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="SubArrayWithGivenSum.spec" />
+    <None Include="Specs\RotateArray.spec" />
+    <None Include="Specs\SubArrayWithGivenSum.spec" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
