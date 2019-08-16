@@ -8,7 +8,7 @@ namespace Algo
     {
         public virtual int[] GetRotateArray(int[] array, int index)
         {
-            if (array?.Any() == null ||  index <= 0)
+            if (array?.Any() == true ||  index <= 0)
                 throw new ArgumentNullException();
 
 

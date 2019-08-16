@@ -10,7 +10,7 @@ namespace Algo
         {
             var closest = int.MaxValue;
             var min = int.MaxValue;
-            if (collection?.Any() != null)
+            if (collection?.Any() == true)
             {
                 foreach (var x in collection)
                 {
@@ -29,7 +29,7 @@ namespace Algo
 
         public virtual int? ClosestLinqTo(IEnumerable<int> collection)
         {
-            if (collection?.Any() != null)
+            if (collection?.Any() == true)
                 return collection.OrderBy(x => (long)Math.Abs(x)).First();
 
             return null;
