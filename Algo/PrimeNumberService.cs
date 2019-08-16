@@ -13,7 +13,10 @@ namespace Algo
                 isPrime = false;
 
             if (number % 2 == 0)
-                isPrime = false;
+                    isPrime = false;
+
+            if (number  == 2)
+                isPrime = true;
 
             var sqrValue = Math.Floor(Math.Sqrt(number.Value));
 
