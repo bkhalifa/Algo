@@ -24,13 +24,11 @@ namespace Algo
                 {
                  if (IsFibonacciNumber (5 * (array[i] * array[i]) + 4) || IsFibonacciNumber(5 * (array[i] * array[i]) - 4))
                      _result.Add(array[i]);
-                 
-
                 }
-
+              return _result.ToArray(typeof(int)) as int[];
             }
 
-            return _result.ToArray(typeof(int)) as int[];
+            return new int []{-1};
         }
   
     }

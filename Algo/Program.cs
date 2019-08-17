@@ -14,7 +14,7 @@ namespace Algo
 
         private static void Main(string[] args)
         {
-
+ 
             Console.WriteLine("*************************************************************");
 
             #region SubArrayWithGivenSum
