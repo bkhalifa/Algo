@@ -44,10 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClosestToZero.cs" />
+    <Compile Include="FibonacciNumber.cs" />
     <Compile Include="PrimeNumberService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RotateArray.cs" />
+    <None Include="Specs\FibonacciNumber.spec" />
     <Compile Include="SubArrayWithGivenSum.cs" />
   </ItemGroup>
   <ItemGroup>
