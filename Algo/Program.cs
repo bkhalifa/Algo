@@ -14,8 +14,12 @@ namespace Algo
 
         private static void Main(string[] args)
         {
- 
-            Console.WriteLine("*************************************************************");
+            var sarr = new int[] { 2, 5, 8, 12, 16, 23, 38, 56, 72, 91 };
+            var sut = new SearchService().GetIndexValueBinarySearch(sarr, 5);
+
+            Console.WriteLine($"sut is {sut}");
+
+            Console.WriteLine("**********sut***************************************************");
 
             #region SubArrayWithGivenSum
 
