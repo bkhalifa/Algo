@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.757
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algo", "Algo\Algo.csproj", "{A412A3C6-2896-4F99-853F-E9EB3F284BA7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TU", "TU\TU.csproj", "{1498C498-5DDC-40EB-A275-38A48B77C25A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ListIInumerableIQearableICollection", "ListIInumerableIQearableICollection", "{A2B9A54B-A03A-450A-909E-782190BA6BDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{DC0B858D-F4B2-41EC-A41E-3966D7DD029B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +25,16 @@ Global
 		{1498C498-5DDC-40EB-A275-38A48B77C25A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1498C498-5DDC-40EB-A275-38A48B77C25A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1498C498-5DDC-40EB-A275-38A48B77C25A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC0B858D-F4B2-41EC-A41E-3966D7DD029B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC0B858D-F4B2-41EC-A41E-3966D7DD029B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC0B858D-F4B2-41EC-A41E-3966D7DD029B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC0B858D-F4B2-41EC-A41E-3966D7DD029B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DC0B858D-F4B2-41EC-A41E-3966D7DD029B} = {A2B9A54B-A03A-450A-909E-782190BA6BDE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B2DB8376-278A-4FA9-B8BA-509C90157F86}

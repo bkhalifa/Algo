@@ -60,6 +60,7 @@
   <ItemGroup>
     <Compile Include="ClosestToZero.cs" />
     <Compile Include="FibonacciNumber.cs" />
+    <Compile Include="Package.cs" />
     <Compile Include="SearchService.cs" />
     <Compile Include="PrimeNumberService.cs" />
     <Compile Include="Program.cs" />
@@ -90,6 +91,9 @@
     <None Include="Specs\BinarySearch.spec">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Specs\JumpSearch.spec" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

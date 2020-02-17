@@ -1,0 +1,11 @@
+D:\Projects\Algo\Algo\ConsoleApp\bin\Debug\netcoreapp2.2\ConsoleApp.deps.json
+D:\Projects\Algo\Algo\ConsoleApp\bin\Debug\netcoreapp2.2\ConsoleApp.runtimeconfig.json
+D:\Projects\Algo\Algo\ConsoleApp\bin\Debug\netcoreapp2.2\ConsoleApp.runtimeconfig.dev.json
+D:\Projects\Algo\Algo\ConsoleApp\bin\Debug\netcoreapp2.2\ConsoleApp.dll
+D:\Projects\Algo\Algo\ConsoleApp\bin\Debug\netcoreapp2.2\ConsoleApp.pdb
+D:\Projects\Algo\Algo\ConsoleApp\obj\Debug\netcoreapp2.2\ConsoleApp.csprojAssemblyReference.cache
+D:\Projects\Algo\Algo\ConsoleApp\obj\Debug\netcoreapp2.2\ConsoleApp.csproj.CoreCompileInputs.cache
+D:\Projects\Algo\Algo\ConsoleApp\obj\Debug\netcoreapp2.2\ConsoleApp.AssemblyInfoInputs.cache
+D:\Projects\Algo\Algo\ConsoleApp\obj\Debug\netcoreapp2.2\ConsoleApp.AssemblyInfo.cs
+D:\Projects\Algo\Algo\ConsoleApp\obj\Debug\netcoreapp2.2\ConsoleApp.dll
+D:\Projects\Algo\Algo\ConsoleApp\obj\Debug\netcoreapp2.2\ConsoleApp.pdb

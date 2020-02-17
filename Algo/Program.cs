@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Diagnostics;
+using System.Linq;
 
 namespace Algo
 {
@@ -14,8 +16,39 @@ namespace Algo
 
         private static void Main(string[] args)
         {
+            string[] fruits = { "apple", "banana", "mango", "orange",
+                      "passionfruit", "grape" };
+
+            var query =
+                fruits.Select((fruit, index) =>
+                                  new { index, str = fruit.Substring(0, index) });
+
+            foreach (var obj in query)
+            {
+                Console.WriteLine($"{obj}");
+            }
+
+            var yesterday = DataContext.YesterdayPacKage();
+            var today = DataContext.ToDayPacKage();
+
+            Stopwatch stopWatch = new Stopwatch();
+            stopWatch.Start();
+
+            var result = DataContext.GetDifferentCosts(yesterday, today);
+
+            stopWatch.Stop();
+            Console.WriteLine($"Time elapsed: {stopWatch.Elapsed}");
+
+
+            foreach (var item in result)
+            {
+                Console.WriteLine($"the result is {item}");
+
+            }
+            Console.WriteLine("**********sut***************************************************");
+
             var sarr = new int[] { 2, 5, 8, 12, 16, 23, 38, 56, 72, 91 };
-            var sut = new SearchService().GetIndexValueBinarySearch(sarr, 5);
+            var sut  = new SearchService().GetIndexValueBinarySearch(sarr, 5);
 
             Console.WriteLine($"sut is {sut}");
 
@@ -34,7 +67,7 @@ namespace Algo
 
             #endregion SubArrayWithGivenSum
 
-            Console.WriteLine("*************************************************************");
+            Console.WriteLine("***************************************************************");
 
             #region PrimeNumber
 
@@ -48,7 +81,7 @@ namespace Algo
 
             #endregion PrimeNumber
 
-            Console.WriteLine("*************************************************************");
+            Console.WriteLine("***************************************************************");
 
             Console.ReadKey();
         }
