@@ -9,7 +9,7 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-          
+
             Vehicle v ;
             v = new Bus();
             v.Display();

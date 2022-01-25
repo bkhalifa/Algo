@@ -9,3 +9,10 @@ D:\Projects\Algo\Algo\ConsoleApp\obj\Debug\netcoreapp2.2\ConsoleApp.AssemblyInfo
 D:\Projects\Algo\Algo\ConsoleApp\obj\Debug\netcoreapp2.2\ConsoleApp.AssemblyInfo.cs
 D:\Projects\Algo\Algo\ConsoleApp\obj\Debug\netcoreapp2.2\ConsoleApp.dll
 D:\Projects\Algo\Algo\ConsoleApp\obj\Debug\netcoreapp2.2\ConsoleApp.pdb
+C:\dev\Git_\ConsoleApp\obj\Debug\netcoreapp2.2\ConsoleApp.csproj.AssemblyReference.cache
+C:\dev\Git_\ConsoleApp\obj\Debug\netcoreapp2.2\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\Git_\ConsoleApp\obj\Debug\netcoreapp2.2\ConsoleApp.AssemblyInfoInputs.cache
+C:\dev\Git_\ConsoleApp\obj\Debug\netcoreapp2.2\ConsoleApp.AssemblyInfo.cs
+C:\dev\Git_\ConsoleApp\obj\Debug\netcoreapp2.2\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\dev\Git_\ConsoleApp\obj\Debug\netcoreapp2.2\ConsoleApp.dll
+C:\dev\Git_\ConsoleApp\obj\Debug\netcoreapp2.2\ConsoleApp.pdb

@@ -4,6 +4,21 @@
     "C:\\dev\\Git_\\ConsoleApp\\ConsoleApp.csproj": {}
   },
   "projects": {
+    "C:\\dev\\Git_\\Algo\\Algo.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\dev\\Git_\\Algo\\Algo.csproj",
+        "projectName": "Algo",
+        "projectPath": "C:\\dev\\Git_\\Algo\\Algo.csproj",
+        "frameworks": {
+          "net471": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net471": {}
+      }
+    },
     "C:\\dev\\Git_\\ConsoleApp\\ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -34,7 +49,11 @@
         "frameworks": {
           "netcoreapp2.2": {
             "targetAlias": "netcoreapp2.2",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\dev\\Git_\\Algo\\Algo.csproj": {
+                "projectPath": "C:\\dev\\Git_\\Algo\\Algo.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

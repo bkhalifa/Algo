@@ -1,0 +1,11 @@
+C:\dev\Git_\AlgoConsole\bin\Debug\AlgoConsole.exe.config
+C:\dev\Git_\AlgoConsole\bin\Debug\AlgoConsole.exe
+C:\dev\Git_\AlgoConsole\bin\Debug\AlgoConsole.pdb
+C:\dev\Git_\AlgoConsole\bin\Debug\Algo.exe
+C:\dev\Git_\AlgoConsole\bin\Debug\Algo.pdb
+C:\dev\Git_\AlgoConsole\bin\Debug\Algo.exe.config
+C:\dev\Git_\AlgoConsole\obj\Debug\AlgoConsole.csproj.AssemblyReference.cache
+C:\dev\Git_\AlgoConsole\obj\Debug\AlgoConsole.csproj.CoreCompileInputs.cache
+C:\dev\Git_\AlgoConsole\obj\Debug\AlgoConsole.csproj.CopyComplete
+C:\dev\Git_\AlgoConsole\obj\Debug\AlgoConsole.exe
+C:\dev\Git_\AlgoConsole\obj\Debug\AlgoConsole.pdb

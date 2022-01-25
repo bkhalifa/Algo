@@ -1,8 +1,4 @@
-FizzBuzz Simple number game
-remplacer des nombres par fizz ou buzz
-
-la methode FizzBuzz prends en paramètre un nombre  de 1 a 100
-
-nombre divisible par 3, fizz
-divisible par 5 , buzz
-divisible par 3 et 5 fizz buzz 
+ï»¿. Create a FizzBuzz() method that prints out the numbers 1 through 100, separated by newlines.
+2. Instead of numbers divisible by 3, the method should output "Fizz".
+3. Instead of numbers divisible by 5, the method should output "Buzz".
+4. Instead of numbers divisible by 3 and 5, the method should output "FizzBuzz".

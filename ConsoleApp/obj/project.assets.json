@@ -207,6 +207,15 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Algo/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Algo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Algo.dll": {}
+        }
       }
     }
   },
@@ -678,10 +687,16 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Algo/1.0.0": {
+      "type": "project",
+      "path": "../Algo/Algo.csproj",
+      "msbuildProject": "../Algo/Algo.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "Algo >= 1.0.0",
       "Microsoft.NETCore.App >= 2.2.0"
     ]
   },
@@ -721,7 +736,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "targetAlias": "netcoreapp2.2",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\dev\\Git_\\Algo\\Algo.csproj": {
+              "projectPath": "C:\\dev\\Git_\\Algo\\Algo.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

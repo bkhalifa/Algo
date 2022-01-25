@@ -60,6 +60,7 @@
   <ItemGroup>
     <Compile Include="ClosestToZero.cs" />
     <Compile Include="FibonacciNumber.cs" />
+    <Compile Include="FizzBuzz.cs" />
     <Compile Include="Package.cs" />
     <Compile Include="SearchService.cs" />
     <Compile Include="PrimeNumberService.cs" />
@@ -71,6 +72,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Specs\FizzBuzz.md" />
     <None Include="Specs\LinearSearch.spec" />
     <None Include="Specs\RotateArray.spec" />
     <None Include="Specs\SubArrayWithGivenSum.spec" />
