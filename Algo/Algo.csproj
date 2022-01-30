@@ -59,10 +59,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClosestToZero.cs" />
+    <Compile Include="ClosestToZeroAlgo.cs" />
+    <Compile Include="ComputeCheckDigitAlgo.cs" />
     <Compile Include="FibonacciNumber.cs" />
     <Compile Include="FizzBuzz.cs" />
+    <Compile Include="Javanais.cs" />
+    <Compile Include="LocateUniverseDocument.cs" />
     <Compile Include="MaximumPoints.cs" />
+    <Compile Include="NotDividedNumbersAlgo.cs" />
+    <Compile Include="NumberCaracter.cs" />
+    <Compile Include="NumberOfPairs.cs" />
     <Compile Include="Package.cs" />
+    <Compile Include="ScanChar.cs" />
     <Compile Include="SearchService.cs" />
     <Compile Include="PrimeNumberService.cs" />
     <Compile Include="Program.cs" />
