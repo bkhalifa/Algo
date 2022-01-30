@@ -61,6 +61,7 @@
     <Compile Include="ClosestToZero.cs" />
     <Compile Include="FibonacciNumber.cs" />
     <Compile Include="FizzBuzz.cs" />
+    <Compile Include="MaximumPoints.cs" />
     <Compile Include="Package.cs" />
     <Compile Include="SearchService.cs" />
     <Compile Include="PrimeNumberService.cs" />
@@ -68,6 +69,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RotateArray.cs" />
     <None Include="Specs\FibonacciNumber.spec" />
+    <Compile Include="StringCalculatorKata.cs" />
     <Compile Include="SubArrayWithGivenSum.cs" />
   </ItemGroup>
   <ItemGroup>
